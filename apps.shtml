@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <article>
+                <a href="apps1.shtml"><img src="images/4.png" alt="Firefox для iOS" width="883" height="150"/></a>
+                <a href="apps1.shtml"><h2>Браузер Mozilla Firefox появился в App Store</h2></a>
+                <p>Сегодня на виртуальных полках "яблочного" магазина приложений появилась финальная версия браузера от компании Mozilla. Стоит отметить, что разработка Firefox для iOS заняла почти год. Первые сообщения о планах выпустить мобильную версию популярного веб-обозревателя для iPhone и iPad появились ещё в декабре прошлого года. В мае разработчики сообщили, что разработка перешла на финальную стадию, а в начале сентября состоялся предварительный релиз Firefox для iOS. В течение двух месяцев браузер был доступен только в новозеландском разделе App Store. Сегодня ситуация изменилась, и Firefox для iOS стал доступен по всему миру.</p>
+                <a href="apps1.shtml" style="margin-left: 30px;">Читать далее...</a>
+            </article>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+
+</html>

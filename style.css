@@ -1,0 +1,225 @@
+/*общий стиль*/
+
+body {
+    background-image: url(images/BG.png);
+    background-attachment: fixed;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #0fa1a9;
+}
+a:active {
+    color: #00dc8d;
+}
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+p {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.container {
+    background: #ffffff;
+    margin: auto;
+    width: 900px;
+/*    height: 2500px;*/
+    height: auto;
+}
+header {
+    background-image: url(images/meizu-m2-note.png);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 900px;
+}
+header * {
+    display: none;
+}
+img {
+    margin-bottom: 7px;
+}
+
+/*стиль панели навигации*/
+
+nav {
+    background: #36474f;
+    width: 900px;
+    height: 20px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+}
+nav ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav a {
+    color: white;
+}
+nav a:hover {
+    color: #0fa1a9;
+}
+nav a:active {
+    color: #00dc8d;
+}
+nav a:not([href]){
+    color: #00dc8d;
+}
+
+/*стиль зоны с контентом*/
+
+.content {
+/*    overflow-y: scroll;*/
+    background: #ffffff;
+    width: 900px;
+/*    height: 2270px;*/
+    height: auto;
+}
+.content a {
+    color: black;
+}
+.content a:hover {
+    color: #0fa1a9;
+}
+.content a:active {
+    color: #00dc8d;
+}
+.content li {
+    margin-left: 30px;
+}
+.clear {
+    clear: both;
+}
+
+/*стиль подвала*/
+
+footer p {
+    padding-top: 12px;
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #0fa1a9;
+}
+footer a:active {
+    color: #00dc8d;
+}
+footer {
+    background: #36474f;
+    width: 900px;
+    height: 64px;
+    margin-top: 10px;
+}
+
+/*media queries - медиа-запросы*/
+/*отображение на экране телефона в вертикальной ориентации*/
+
+@media (max-width: 700px) {
+    body {
+        font-size: 30px;
+    }
+    header {
+        background-image: url(images/meizu-m2-note.png);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        width: 900px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    nav {
+        height: 25px;
+    }
+    footer {
+        height: 175px;
+    }
+}
+
+/*отображение на экране телефона в горизонтальной ориентации*/
+
+@media (orientation: landscape) and (max-width: 1200px) {
+    header {
+        background-image: url(images/meizu-m2-note.png);
+        background-position: center;
+        background-size: cover;
+        height: 150px;
+        width: 900px;
+    }
+    body {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    nav {
+        height: 25px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+
+/*отображение для печати*/
+
+@media print{
+    header {
+        display: none;
+    }
+    nav {
+        background: white;
+    }
+    nav a {
+        color: black;
+    }
+    .content {
+        height: auto;
+    }
+    body {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    iframe {
+        display: none;
+    }
+    footer {
+        background: white;
+    }
+    footer a {
+        color: black;
+    }
+    footer p {
+        color: black;
+    }
+}

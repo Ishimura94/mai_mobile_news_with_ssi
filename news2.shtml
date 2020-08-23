@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <article>
+                    <img src="images/5.png" alt="С ДР, Винда!" width="883" height="150"/>
+                <h2>Windows исполнилось 30 лет</h2>
+                    <p>Сегодня, 20 ноября 2015 года, корпорация Microsoft отмечает важную дату в истории операционной системы Windows. Ровно 30 лет назад, 20 ноября 1985 года, состоялся релиз самой первой версии Windows. За 30 лет компания Microsoft выпустила 14 версий ОС, а самой последней из них стала Windows 10. На сегодняшний день самой популярной "операционкой" остаётся Windows 7, которая установлена на 55,71% всех персональных компьютеров в мире. Несмотря на это, число пользователей Windows 10 стремительно растёт, и с момента релиза платформы, состоявшегося 29 июля 2015 года, её пользовательская база превысила барьер в 120 миллионов и продолжает стремительно расти.</p>
+                    <p align="center">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/sforhbLiwLA"></iframe>
+                    </p>
+                    <p>Список всех версий Windows за 30 лет существования:
+                        <ul>
+                            <li>Windows 1.0 (1985);</li>
+                            <li>Windows 2.0 (1987);</li>
+                            <li>Windows 3.x (1990, 1992);</li>
+                            <li>Windows NT (1993);</li>
+                            <li>Windows 95 (1995);</li>
+                            <li>Windows 98 (1998);</li>
+                            <li>Windows 2000 (2000);</li>
+                            <li>Windows ME (2000);</li>
+                            <li>Windows XP (2001);</li>
+                            <li>Windows Vista (2006);</li>
+                            <li>Windows 7 (2009);</li>
+                            <li>Windows 8 (2012);</li>
+                            <li>Windows 8.1 (2013);</li>
+                            <li>Windows 10 (2015).</li>
+                        </ul>
+                    </p>
+                    <p align="center">
+                        <img src="images/n21.jpg" alt="Gates и Винда 95" width="480" height="299"/>
+                    </p>
+                    <p>Windows 10 стала первой версией Windows, которая ориентирована на все типы устройств. На базе этой платформы работают ноутбуки, настольные компьютеры, игровые консоли, планшеты и смартфоны. К слову, в ближайшее время состоится запуск Windows 10 Mobile, обновление до которой пользователи начнут получать уже в следующем месяце.</p>
+                    <p>Источник: <a href="http://microsoft-news.com/windows-turns-30/" target="_blank">microsoft-news.com</a></p>
+            </article>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

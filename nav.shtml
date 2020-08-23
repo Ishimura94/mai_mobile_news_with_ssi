@@ -1,0 +1,10 @@
+        <nav>
+            <ul>
+                <li><a<!--#if expr="$DOCUMENT_URI!='/index.shtml'"--> href="index.shtml"<!--#endif -->>Главная</a></li>
+                <li><a<!--#if expr="$DOCUMENT_URI!='/news.shtml'"--> href="news.shtml"<!--#endif -->>Новости</a></li>
+                <li><a<!--#if expr="$DOCUMENT_URI!='/reviews.shtml'"--> href="reviews.shtml"<!--#endif -->>Обзоры</a></li>
+                <li><a<!--#if expr="$DOCUMENT_URI!='/articles.shtml'"--> href="articles.shtml"<!--#endif -->>Статьи</a></li>
+                <li><a<!--#if expr="$DOCUMENT_URI!='/apps.shtml'"--> href="apps.shtml"<!--#endif -->>Программы</a></li>
+                <li><a<!--#if expr="$DOCUMENT_URI!='/howto.shtml'"--> href="howto.shtml"<!--#endif -->>How to ..?</a></li>
+            </ul>
+        </nav>

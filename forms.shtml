@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="forms">
+            <form>
+                <h2>Регистрация</h2>
+                <!--однострочный текст-->
+                <p><input type="text" maxlength="25" size="35" name="username1" placeholder="Введите логин"></p>
+                <p><input type="text" maxlength="25" size="35" name="password1" placeholder="Введите пароль"></p>
+                <p><input type="text" maxlength="25" size="35" name="password1" placeholder="Повторите пароль"></p>
+                
+                <!--выпадающий список-->
+                <p><select name="select" size="1">
+                    <option selected value="">Пол</option>
+                    <option value="male">Муж</option>
+                    <option value="female">Жен</option>
+                    <!--<option value="reptile">Рептилоид</option>-->
+                    </select></p>
+
+                <!--многострочный текст-->
+                <p><textarea cols="35" rows="5">Введите список ваших устройств</textarea></p>
+                
+                <!--флажок-->
+                <p>Какими ОС вы пользуетесь?</p>
+                <p>Настольные:</p>
+                <p><input type="checkbox" name="os" value="windows"> Windows</p>
+                <p><input type="checkbox" name="os" value="macos"> MacOS</p>
+                <p><input type="checkbox" name="os" value="linux"> Linux</p>
+                <p>Мобильные:</p>
+                <p><input type="checkbox" name="os" value="ios"> iOS</p>
+                <p><input type="checkbox" name="os" value="android"> Android</p>
+                <p><input type="checkbox" name="os" value="winphone"> Windows Phone</p>
+                <p><input type="checkbox" name="os" value="bbos"> BlackberryOS</p>
+                <p><input type="checkbox" name="os" value="symbian"> Symbian</p>
+
+                <!--3 радиокнопки-->
+                <p><b>Прочитали ли вы правила поведения на форуме?</b></p>
+                <p><input name="rules" type="radio" value="yes"> Да</p>
+                <p><input name="rules" type="radio" value="no"> Нет, но я обещаю себя хорошо вести</p>
+                <p><input name="rules" type="radio" value="no-no"> Нет</p>
+                    
+                <!--кнопки отправки и сброса-->
+                <p><input type="submit" value="Отправить">
+                    <input type="reset" value="Сбросить"></p>
+            </form>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

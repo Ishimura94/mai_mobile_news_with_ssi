@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <article>
+                <a href="howto1.shtml"><h2>Как заставить себя нормально заполнить все вкладки сайта?</h2></a>
+                <p>В процессе создания сего шедевра, в какой-то момент становится лень заполнять все вкладки, и начинаешь писать что-то, лишь бы было... Можно хоть историю какую напишу, а?</p>
+                <a href="howto1.shtml" style="margin-left: 30px;">Читать далее...</a>
+            </article>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <article>
+                <a href="articles1.shtml"><img src="images/3.png" alt="Новинки октября 2015" width="883" height="150"/></a>
+                <a href="articles1.shtml"><h3>Самые интересные новинки смартфонов: октябрь 2015</h3></a>
+                <p>На улице становится всё холоднее, однако на температуру в мире смартфонов это никак не влияет — здесь всегда жарко. Новинки сменяют друг друга каждый день: новый флагман с двумя экранами от LG, слайдер от BlackBerry, дебютанты под управлением Windows 10 Mobile от Microsoft, «неубиваемая» Motorola, третий смартфон от OnePlus и многое другое — как за всем уследить? Для тех, кто в суматохе не успел оценить все новинки октября создан этот дайджест.</p>
+                <a href="articles1.shtml" style="margin-left: 30px;">Читать далее...</a>
+            </article>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <article>
+                <h2>Как заставить себя нормально заполнить все вкладки сайта?</h2>
+                    <p>В процессе создания сего шедевра, в какой-то момент становится лень заполнять все вкладки, и начинаешь писать что-то, лишь бы было... Можно хоть историю какую напишу, а?</p>
+                    <p>Короче, заполняю-заполняю и тут как-то лень стало, а осталось всего 1 вкладка. + на глаза попадается картиночка с крутым ленивцем... Ну думаю, напишу какую-нибудь ересь и вставлю этого ленивца, типа мне лень... Причём отредачить этого ленивца было совсем не лень... THAT'S ALL</p>
+                    <p align="center">И немного о дизайне (ленивец ниже):</p>
+                    <p align="center"><img src="images/dezign.gif" alt="Дизигн"/></p>
+                    <p align="center"><a title="Трогни..." href="https://s-media-cache-ak0.pinimg.com/736x/32/69/28/326928d1044e546f261def6777db9f4f.jpg" target="_blank"><img src="images/sorry.jpg" alt="Сорян, тут только ленивец" width="500" height="500"/></a></p>
+            </article>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

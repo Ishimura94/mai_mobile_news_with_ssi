@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <article>
+                <a href="reviews1.shtml"><img src="images/2.png" alt="Nexus 5X" width="883" height="150"/></a>
+                <a href="reviews1.shtml"><h2>Обзор Google Nexus 5X: «голый» Marshmallow</h2></a>
+                <p>Смартфоны Nexus заслуженно получили статус лучшего Android-смартфона. Они всегда отличались от конкурентов самой свежей ОС от Google. Причем самой новой она оставалась до тех пор, пока смартфону хватало на это аппаратных возможностей — «Нексусы» получают каждое обновление и поддерживаются компанией гораздо дольше, чем остальные смартфоны.</p>
+                <a href="reviews1.shtml" style="margin-left: 30px;">Читать далее...</a>
+            </article>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+        <footer>
+            <p>Лозунг честно стырен с <a href="http://droider.ru/" target="_blank">droider.ru</a>, а лента представляет собой почти полный копипаст с <a href="http://4pda.ru/" target="_blank">4PDA.ru</a> :3<br>Создатель всего этого безобразия: <a href="http://vk.com/nkalitanov" target="_blank">Калитанов Н.А.</a>, группа 3ИВТ-3ДБ-008<br><!--#config timefmt="%Y"--><!--#if expr="$DATE_LOCAL=2015"-->2015<!--#else-->2015&mdash;<!--#echo var="DATE_LOCAL"--><!--#endif--></p>
+        </footer>

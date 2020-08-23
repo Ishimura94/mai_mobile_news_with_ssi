@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<!--#include virtual="head.html" -->
+<body>
+    <div class="container">
+<!--#include virtual="header.html" -->
+<!--#include virtual="nav.shtml" -->
+        <div class="content">
+            <div class="forms">
+                <form>
+                    <p><input type="text" maxlength="10" size="13" name="username" placeholder="Логин">
+                    <input type="password" maxlength="10" size="13" name="password" placeholder="Пароль">
+                    <input type="submit" value="Войти">
+                        <button>
+                            <a href="forms.shtml">Регистрация</a>
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <article>
+                <a href="news2.shtml"><img src="images/5.png" alt="С ДР, Винда!" width="883" height="150"/></a>
+                <a href="news2.shtml"><h2>Windows исполнилось 30 лет</h2></a>
+                <p>Сегодня, 20 ноября 2015 года, корпорация Microsoft отмечает важную дату в истории операционной системы Windows. Ровно 30 лет назад, 20 ноября 1985 года, состоялся релиз самой первой версии Windows. За 30 лет компания Microsoft выпустила 14 версий ОС, а самой последней из них стала Windows 10. На сегодняшний день самой популярной "операционкой" остаётся Windows 7, которая установлена на 55,71% всех персональных компьютеров в мире. Несмотря на это, число пользователей Windows 10 стремительно растёт, и с момента релиза платформы, состоявшегося 29 июля 2015 года, её пользовательская база превысила барьер в 120 миллионов и продолжает стремительно расти.</p>
+                <a href="news2.shtml" style="margin-left: 30px;">Читать далее...</a>
+                <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            </article>
+            <article>
+                <a href="apps1.shtml"><img src="images/4.png" alt="Firefox для iOS" width="883" height="150"/></a>
+                <a href="apps1.shtml"><h2>Браузер Mozilla Firefox появился в App Store</h2></a>
+                <p>Сегодня на виртуальных полках "яблочного" магазина приложений появилась финальная версия браузера от компании Mozilla. Стоит отметить, что разработка Firefox для iOS заняла почти год. Первые сообщения о планах выпустить мобильную версию популярного веб-обозревателя для iPhone и iPad появились ещё в декабре прошлого года. В мае разработчики сообщили, что разработка перешла на финальную стадию, а в начале сентября состоялся предварительный релиз Firefox для iOS. В течение двух месяцев браузер был доступен только в новозеландском разделе App Store. Сегодня ситуация изменилась, и Firefox для iOS стал доступен по всему миру.</p>
+                <a href="apps1.shtml" style="margin-left: 30px;">Читать далее...</a>
+                <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            </article>
+            <article>
+                <a href="articles1.shtml"><img src="images/3.png" alt="Новинки октября 2015" width="883" height="150"/></a>
+                <a href="articles1.shtml"><h2>Самые интересные новинки смартфонов: октябрь 2015</h2></a>
+                <p>На улице становится всё холоднее, однако на температуру в мире смартфонов это никак не влияет — здесь всегда жарко. Новинки сменяют друг друга каждый день: новый флагман с двумя экранами от LG, слайдер от BlackBerry, дебютанты под управлением Windows 10 Mobile от Microsoft, «неубиваемая» Motorola, третий смартфон от OnePlus и многое другое — как за всем уследить? Для тех, кто в суматохе не успел оценить все новинки октября создан этот дайджест.</p>
+                <a href="articles1.shtml" style="margin-left: 30px;">Читать далее...</a>
+                <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            </article>
+            <article>
+                <a href="reviews1.shtml"><img src="images/2.png" alt="Nexus 5X" width="883" height="150"/></a>
+                <a href="reviews1.shtml"><h2>Обзор Google Nexus 5X: «голый» Marshmallow</h2></a>
+                <p>Смартфоны Nexus заслуженно получили статус лучшего Android-смартфона. Они всегда отличались от конкурентов самой свежей ОС от Google. Причем самой новой она оставалась до тех пор, пока смартфону хватало на это аппаратных возможностей — «Нексусы» получают каждое обновление и поддерживаются компанией гораздо дольше, чем остальные смартфоны.</p>
+                <a href="reviews1.shtml" style="margin-left: 30px;">Читать далее...</a>
+                <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            </article>
+            <article>
+                <a href="news1.shtml"><img src="images/1.png" alt="Google новый производитель чипов" width="883" height="150"/></a>
+                <a href="news1.shtml"><h2>Google ищет партнёра для производства своих процессоров</h2></a>
+                <p>Согласно <a href="https://www.theinformation.com/with-apple-in-mind-google-seeks-android-chip-partners" target="_blank">сообщению издания The Information</a>, компания Google решила начать разработку собственных процессоров для Android-устройств. По словам источника, корпорация будет разрабатывать чипсеты, а их производством займутся компании-партнёры. По такой же схеме работает Apple с её процессорами серии A. Таким образом Google сможет оптимизировать Android под собственные процессоры. К сожалению, представители Google пока отказываются хоть как-то прокомментировать поступившую информацию.</p>
+                <a href="news1.shtml" style="margin-left: 30px;">Читать далее...</a>
+                <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            </article>
+            <article>
+                <a href="howto1.shtml"><h2>Как заставить себя нормально заполнить все вкладки сайта?</h2></a>
+                <p>В процессе создания сего шедевра, в какой-то момент становится лень заполнять все вкладки, и начинаешь писать что-то, лишь бы было... Можно хоть историю какую напишу, а?</p>
+                <a href="howto1.shtml" style="margin-left: 30px;">Читать далее...</a>
+                <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            </article>
+            <p><button>
+                <a href="laba_1_php.shtml" target="_blank">Лаба 1 по ПХП (опредилитель матрицы)</a>
+                </button>
+                <button>
+                <a href="laba_3_php.php" target="_blank">Лаба 3 по ПХП (магазин)</a>
+                </button>
+            </p>
+            <p>
+                <button>
+                <a href="laba_4_php.php" target="_blank">Лаба 4 по ПХП (регулярки)</a>
+                </button>
+            </p>
+            <img src="images/divider.png" style="margin-top: 15px;" alt="Разделитель" width="883" height="5"/>
+            <p><button>
+                <a href="calc.html" target="_blank">Калькулятор</a>
+                </button>
+                <button>
+                <a href="load.php" target="_blank">Загрузка, капча, ватермарка</a>
+                </button>
+                <button>
+                <a href="clock.php" target="_blank">Часы</a>
+                </button>
+            </p>
+        </div>
+<!--#include virtual="footer.shtml" -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+    function calc() {
+        text2.value = eval(text.value.toString());
+    }
+</script>
+<table>
+    <tr>
+        <td><input type="text" id="field"
+                   onkeypress="if(this.value.match(/([^0-9+\-\*\/=\.])/)) this.value=this.value.replace(/[^0-9+\-\*\/=\.]/g,'')"
+                   onkeyup="if(this.value.match(/[^0-9+\-\*\/=\.]/)) this.value=this.value.replace(/[^0-9+\-\*\/=\.]/g,''); if (event.keyCode==13) calc();">
+        </td>
+        <td><input type="button" value="=" onclick="calc()"></td>
+        <td><input type="text" readonly value="Result" id="calcfield"></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><input type="button" value="1" onclick="text.value+=1"></td>
+        <td><input type="button" value="2" onclick="text.value+=2"></td>
+        <td><input type="button" value="3" onclick="text.value+=3"></td>
+        <td><input type="button" value="+" onclick="text.value+='+'"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="text.value+=4"></td>
+        <td><input type="button" value="5" onclick="text.value+=5"></td>
+        <td><input type="button" value="6" onclick="text.value+=6"></td>
+        <td><input type="button" value="-" onclick="text.value+='-'"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="text.value+=7"></td>
+        <td><input type="button" value="8" onclick="text.value+=8"></td>
+        <td><input type="button" value="9" onclick="text.value+=9"></td>
+        <td><input type="button" value="/" onclick="text.value+='/'"></td>
+    </tr>
+    <tr><td><input type="button" value="." onclick="text.value+='.'"></td><td><input type="button" value="0" onclick="text.value+='0'"></td><td></td><td><input type="button" value="*" onclick="text.value+='*'"></td></tr>
+</table>
+<script>var text = document.getElementById('field');
+var text2 = document.getElementById('calcfield')</script>
+</body>
+</html>
